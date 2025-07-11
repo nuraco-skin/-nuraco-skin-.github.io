@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Nuraco.Skin - About Us</title>
+<style>
+  body {
+    margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FAF9F6; color: #333333;
+  }
+  header {
+    background-color: #A8C3A5; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center;
+  }
+  header h1 {
+    margin: 0; font-weight: 700; color: #FAF9F6;
+    font-size: 1.5rem;
+  }
+  nav a {
+    color: #FAF9F6; text-decoration: none; margin-left: 1.5rem; font-weight: 600;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  main {
+    max-width: 700px; margin: 2rem auto; padding: 0 1rem;
+  }
+  h2 {
+    color: #A8C3A5; font-weight: 700; margin-bottom: 1rem; text-align: center;
+  }
+  p {
+    line-height: 1.6; font-size: 1.1rem; text-align: center;
+  }
+  footer {
+    background-color: #E6B8B7; color: #333333; text-align: center; padding: 1rem 0; margin-top: 3rem;
+    font-size: 0.9rem;
+  }
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column; align-items: flex-start;
+    }
+    nav a {
+      margin-left: 0; margin-top: 0.5rem;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Nuraco.Skin</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+<main>
+  <h2>About Nuraco.Skin</h2>
+  <p>
+    Nuraco.Skin is a clean, plant-powered skincare brand dedicated to gentle, effective care for every skin type. We believe in simple routines, natural ingredients, and radiant results.
+  </p>
+  <p>
+    Our mission is to create products that nourish your skin with the best nature has to offer — no harsh chemicals, no unnecessary additives, just pure and effective skincare.
+  </p>
+</main>
+<footer>
+  &copy; 2025 Nuraco.Skin. All rights reserved.
+</footer>
+</body>
+</html>
